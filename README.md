@@ -1,4 +1,32 @@
-This repo contains a template for a minimal [Next.js](https://nextjs.org/) application. The remainder of this file documents the steps used to create the template.
+This repo contains a template for a minimal [Next.js](https://nextjs.org/) application with the development environment enhanced by [gts](https://www.npmjs.com/package/gts).
+
+## Why Next.js?
+
+Here's how Vercel describes Next.js:
+
+**The React Framework
+for Production.**
+Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
+
+## Why GTS?
+
+Here's the pitch from the NPM page:
+
+[gts](https://www.npmjs.com/package/gts) is Google's TypeScript style guide, and the configuration for our formatter, linter, and automatic code fixer. No lint rules to edit, no configuration to update, no more bike shedding over syntax.
+
+To borrow from [standardjs](https://www.npmjs.com/package/standard):
+
+* No configuration. The easiest way to enforce consistent style in your project. Just drop it in.
+* Automatically format code. Just run gts fix and say goodbye to messy or inconsistent code.
+* Catch style issues & programmer errors early. Save precious code review time by eliminating back-and-forth between reviewer & contributor.
+* Opinionated, but not to a fault. We recommend you use the default configuration, but if you need to customize compiler or linter config, you can.
+
+Under the covers, we use eslint to enforce the style guide and provide automated fixes, and prettier to re-format code.
+
+---
+You can copy over the template verbatim, but I recommend creating it using the steps, listed below. The steps are simple, consisting of two `npx` commands, a folder deletion, and two file edits.
+
+Some parts of the repo were adapted from ideas in this [guide to configuring Next.js with GTS](https://iiiyu.com/2021/06/08/how-to-set-up-a-nextjs-project-with-typescript/).
 
 # Create Next.js App
 
